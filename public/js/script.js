@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", function() {
         attribution: 'mene banaya haha'
     }).addTo(map);
     
-    
     if(navigator.geolocation){
         navigator.geolocation.watchPosition((position) => {
             const { latitude, longitude } = position.coords;
